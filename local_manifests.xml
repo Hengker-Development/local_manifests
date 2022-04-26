@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="Hengker"
+           fetch="https://github.com/Hengker-Development"/>
+
+ <!-- Device Trees -->
+  <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo" remote="Hengker" revision="twelve"/>
+ 
+ <!-- Kernel -->
+  <project path="kernel/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo" remote="Hengker" revision="twelve"/>
+
+ <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo" remote="Hengker" revision="twelve"/>
+
+ <!-- Clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-anya" name="anya-clang" revision="main" remote="Hengker" clone-depth="1"/> 
+  
+ <!-- Hals -->
+  <remove-project name="hardware_qcom-caf_sm8150_display"/>
+  <remove-project name="hardware_qcom-caf_sm8150_audio"/>
+  <remove-project name="hardware_qcom-caf_sm8150_media"/>
+  <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="Hengker" groups="qcom,pdk-qcom"  revision="arrow-12.1-caf-sm8150"/>
+  <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="Hengker" groups="qcom,qcom_audio,pdk-qcom"  revision="arrow-12.1-caf-sm8150"/>
+  <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="Hengker" groups="pdk-qcom,qcom,qcom_display"  revision="arrow-12.1-caf-sm8150"/>
+
+</manifest>
