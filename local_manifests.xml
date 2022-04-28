@@ -4,6 +4,9 @@
   <remote  name="Hengker"
            fetch="https://github.com/Hengker-Development"/>
 
+  <remote  name="gitlab-Hengker"
+           fetch="https://gitlab.com/WisnuArdhi28"/>           
+
  <!-- Device Trees -->
   <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo" remote="Hengker" revision="twelve"/>
  
@@ -14,6 +17,6 @@
   <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo" remote="Hengker" revision="twelve"/>
 
  <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-anya" name="anya-clang" revision="main" remote="Hengker" clone-depth="1"/> 
+  <project path="prebuilts/clang/host/linux-x86/clang-anya" name="anya-clang" revision="main" remote="gitlab-Hengker" clone-depth="1"/> 
 
 </manifest>
