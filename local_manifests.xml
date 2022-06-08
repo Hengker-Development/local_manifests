@@ -5,15 +5,12 @@
            fetch="https://github.com/Hengker-Development"/>        
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo" remote="Hengker" revision="twelve"/>
+  <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo" remote="Hengker" revision="komodo-12.1"/>
  
  <!-- Kernel -->
   <project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo" remote="Hengker" revision="twelve"/>
 
  <!-- Vendor Trees -->
   <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo" remote="Hengker" revision="twelve"/>
-
- <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Hengker" revision="master" clone-depth="1"/> 
 
 </manifest>
