@@ -5,7 +5,7 @@
            fetch="https://github.com/Hengker-Development"/>        
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo" remote="Hengker" revision="twelve"/>
+  <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo" remote="Hengker" revision="12.1"/>
  
  <!-- Kernel -->
   <project path="kernel/xiaomi/ginkgo" name="android_kernel_xiaomi_ginkgo" remote="Hengker" revision="twelve"/>
